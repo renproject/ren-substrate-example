@@ -19,6 +19,6 @@ yarn link @renproject/ren
 Run JS example:
 
 ```sh
-yarn
+yarn install
 yarn start
 ```
