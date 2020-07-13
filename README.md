@@ -1,4 +1,4 @@
-# renBTC on substrate - JS example
+# ren-js substrate example
 
 ## Setup
 
