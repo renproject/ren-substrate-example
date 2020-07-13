@@ -44,5 +44,5 @@ const main = async () => {
 };
 
 main()
-    .finally(process.exit)
-    .catch(err => { console.error("Error:", err); });
+    .catch(err => { console.error("Error:", err); })
+    .finally(process.exit).catch(console.error);

@@ -31,7 +31,7 @@ export const handleBitcoinDeposit = async () => {
 
         // Empty payload. On Ethereum, this is used to specify a smart contract
         // to be called.
-        contractFn: "",
+        contractFn: "mint",
         contractParams: [],
     });
 
