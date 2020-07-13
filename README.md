@@ -1,4 +1,4 @@
-# renBTC on Acala - JS example
+# renBTC on substrate - JS example
 
 ## Setup
 
