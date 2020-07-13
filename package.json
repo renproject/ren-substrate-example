@@ -1,0 +1,22 @@
+{
+  "name": "acala",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@acala-network/api": "^0.2.0-beta.55",
+    "@polkadot/api": "^1.23.1",
+    "@polkadot/keyring": "^2.17.1",
+    "@polkadot/types": "^1.23.1",
+    "@renproject/contracts": "^0.6.0",
+    "base-x": "^3.0.8",
+    "typescript": "^3.9.6"
+  },
+  "devDependencies": {
+    "tslint": "^6.1.2",
+    "tslint-microsoft-contrib": "^6.2.0"
+  },
+  "scripts": {
+    "start": "tsc && node build/main/index.js"
+  }
+}
