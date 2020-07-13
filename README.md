@@ -8,6 +8,7 @@ Build RenJS:
 
 ```sh
 git submodule init
+git submodule update
 cd ./ren-js
 yarn run link
 yarn
