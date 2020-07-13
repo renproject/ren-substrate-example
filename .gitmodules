@@ -1,0 +1,3 @@
+[submodule "ren-js"]
+	path = ren-js
+	url = git@github.com:renproject/ren-js.git
