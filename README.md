@@ -2,7 +2,7 @@
 
 ## Setup
 
-Download and setup <github.com/renproject/ren-substrate>.
+Download and setup [github.com/renproject/ren-substrate](github.com/renproject/ren-substrate).
 
 Build RenJS:
 
