@@ -1,5 +1,5 @@
 
-import { testnet } from "@renproject/contracts";
+import { renTestnet } from "@renproject/networks";
 import RenJS from "@renproject/ren";
 import BigNumber from "bignumber.js";
 
@@ -15,7 +15,7 @@ export const handleBitcoinDeposit = async () => {
     // RenVM deployment is used instead of the standard testnet RenVM, to
     // avoid requiring confirmations. Remove `lightnode` to test against the
     // real testnet RenVM.
-    const renJS = new RenJS({ ...testnet, lightnode: "https://mock-renvm.herokuapp.com/" });
+    const renJS = new RenJS({ ...renTestnet, lightnode: "https://mock-renvm.herokuapp.com/" });
 
     const mint = renJS.lockAndMint({
         // Send BTC from the Bitcoin blockchain to the Ethereum blockchain.

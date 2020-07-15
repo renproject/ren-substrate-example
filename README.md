@@ -15,7 +15,7 @@ npx lerna run link
 yarn install
 yarn build
 cd ../
-yarn link @renproject/ren
+yarn link @renproject/ren @renproject/networks
 ```
 
 Run JS example:
