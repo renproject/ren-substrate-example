@@ -12,6 +12,7 @@ git submodule update
 cd ./ren-js
 yarn install
 yarn run link
+yarn build
 cd ../
 yarn link @renproject/ren
 ```
